@@ -1,6 +1,5 @@
 # Deployment link on Netlify
-https://app.netlify.com/sites/whatsapp-clone-y/overview
-
+https://whatsapp-clone-y.netlify.app/
 
 # Getting Started with Create React App
 
