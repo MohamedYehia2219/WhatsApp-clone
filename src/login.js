@@ -7,7 +7,7 @@ import { actionTypes } from "./reducer";
 
 
 function Login() {
-    const [{}, dispatch] = useSetValue();
+    const [{user}, dispatch] = useSetValue();
 
     const signIn = () => {
         auth
@@ -21,6 +21,7 @@ function Login() {
   return (
     <div className='login'>
         <div className='login_container'>
+            <div>{user}</div>
             <img src={require(`./img/app.png`)} alt='WhatsApp'/>
             <h1>Sign in to whatsApp</h1>
             <Button onClick={signIn}> Sign In with Google </Button>

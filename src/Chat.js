@@ -17,7 +17,7 @@ function Chat() {
     const {roomId} = useParams();
     const [roomName, setRoomName]=useState("");
     const [messages, setMessages] = useState([]); 
-    const [{ user }, dispatch] = useSetValue();
+    const [{ user }] = useSetValue();
     const [currentTime, setTime] = useState("");
 
     useEffect(()=>{

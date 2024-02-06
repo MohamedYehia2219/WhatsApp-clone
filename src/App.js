@@ -6,7 +6,7 @@ import Login from './login';
 import { useSetValue } from "./StateProvider";
 
 function App() {
-  const [{ user }, dispatch] = useSetValue();
+  const [{ user }] = useSetValue();
 
   return (
     <div className="app">
